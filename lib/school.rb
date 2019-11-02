@@ -1,36 +1,36 @@
-class School(name) #this is the model in the domain model context
+# class School(name) #this is the model in the domain model context
   
-  attr_accessor :roster
+#   attr_accessor :roster
   
-  ROSTER = {}
+#   ROSTER = {}
   
-end 
+# end 
 
-def add_student (name, gr)
-ROSTER << @student
+# def add_student (name, gr)
+# ROSTER << @student
 
-school = School.new("Bayside High School")
+# school = School.new("Bayside High School")
 
-#
-#
+# #
+# #
 
-class School
-  attr_accessor :roster #, :page_count
-  #attr_reader  :title, :genre
+# class School
+#   attr_accessor :roster #, :page_count
+#   #attr_reader  :title, :genre
 
- ROSTER = []
+# ROSTER = []
 
-  def initialize(title)
-    @title = title
-  end
+#   def initialize(title)
+#     @title = title
+#   end
 
-  def turn_page
-    puts "Flipping the page...wow, you read fast!"
-  end
+#   def turn_page
+#     puts "Flipping the page...wow, you read fast!"
+#   end
   
-  def genre=(genre)
-    @genre = genre 
-    GENRES << genre
-  end
+#   def genre=(genre)
+#     @genre = genre 
+#     GENRES << genre
+#   end
 
-end
+# end
