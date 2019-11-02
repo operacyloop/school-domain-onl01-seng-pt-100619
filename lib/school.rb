@@ -33,4 +33,4 @@ class School
     GENRES << genre
   end
 
-endc
+end
